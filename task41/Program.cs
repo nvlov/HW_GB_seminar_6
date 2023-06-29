@@ -13,7 +13,7 @@ class Program
     {
         Console.Clear();
 		Console.WriteLine("Enter numbers separated by spaces:");
-        string input = Console.ReadLine();
+        string input = Console.ReadLine()!;
 
         string[] numbers = input.Split(' ');
 
